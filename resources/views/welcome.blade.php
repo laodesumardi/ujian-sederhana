@@ -66,7 +66,7 @@
                                     <span class="text-primary-600 block sm:inline">Terpercaya</span>
                                 </h1>
                                 <p class="text-base md:text-xl text-gray-600 mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed">
-                                    Platform ujian online yang aman,mudah di gunakan dan dapat diandalkan untuk institusi pendidikan modern.
+                                    Platform ujian online yang aman, dan dapat diandalkan untuk institusi pendidikan modern.
                                 </p>
                             </div>
 
