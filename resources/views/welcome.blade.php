@@ -12,7 +12,7 @@
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        
+
         <style>
             body {
                 font-family: 'Inter', sans-serif;
@@ -36,7 +36,7 @@
                                 <p class="text-xs md:text-sm text-gray-600">Sistem Ujian Online</p>
                             </div>
                         </div>
-                        
+
                         @if (Route::has('login'))
                             <div class="flex items-center space-x-2 md:space-x-4">
                                 @auth
@@ -66,10 +66,10 @@
                                     <span class="text-primary-600 block sm:inline">Terpercaya</span>
                                 </h1>
                                 <p class="text-base md:text-xl text-gray-600 mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed">
-                                    Platform ujian online yang aman, mudah digunakan, dan dapat diandalkan untuk institusi pendidikan modern.
+                                    Platform ujian online yang aman, dan dapat diandalkan untuk institusi pendidikan modern.
                                 </p>
                             </div>
-                            
+
                             <div class="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-8 md:mb-12 px-4">
                                 @if (Route::has('login'))
                                     @auth
@@ -86,7 +86,7 @@
                                     @endauth
                                 @endif
                             </div>
-                            
+
                             <!-- Features Grid -->
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-12 md:mt-16 px-4 md:px-0">
                                 <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition duration-300">
@@ -98,7 +98,7 @@
                                     <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-2 text-center">Aman & Terpercaya</h3>
                                     <p class="text-sm md:text-base text-gray-600 text-center">Sistem keamanan berlapis untuk menjamin integritas ujian dan mencegah kecurangan.</p>
                                 </div>
-                                
+
                                 <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition duration-300">
                                     <div class="bg-primary-200 w-12 h-12 md:w-16 md:h-16 rounded-lg flex items-center justify-center mx-auto mb-4">
                                         <svg class="w-6 h-6 md:w-8 md:h-8 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -108,7 +108,7 @@
                                     <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-2 text-center">Cepat & Responsif</h3>
                                     <p class="text-sm md:text-base text-gray-600 text-center">Interface yang cepat dan responsif untuk pengalaman ujian yang lancar di semua perangkat.</p>
                                 </div>
-                                
+
                                 <div class="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition duration-300">
                                     <div class="bg-primary-300 w-12 h-12 md:w-16 md:h-16 rounded-lg flex items-center justify-center mx-auto mb-4">
                                         <svg class="w-6 h-6 md:w-8 md:h-8 text-primary-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,7 +123,7 @@
                     </main>
                 </div>
             </div>
-            
+
             <!-- Footer -->
             <footer class="bg-primary-900 text-white py-8 w-full">
                 <div class="container mx-auto px-6 text-center">
